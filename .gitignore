@@ -40,4 +40,4 @@ dist-ssr
 *.sln
 *.sw?
 
-delete_when_done_using.html
+HELP.md
