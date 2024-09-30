@@ -1,0 +1,15 @@
+:root {
+  --primary-dark-cyan: hsl(180, 29%, 50%);
+  --background-grayish-cyan: hsl(180, 52%, 96%);
+  --filter-tablets-cyan: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-cyan: hsl(180, 14%, 20%);
+  
+  --league-spartan-font: "League Spartan", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--league-spartan-font);
+}
