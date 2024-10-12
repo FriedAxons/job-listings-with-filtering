@@ -3,11 +3,11 @@
   top: 125px;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   padding: 15px 40px;
   color: var(--primary-dark-cyan);
   background-color: var(--filter-tablets-cyan);
-  box-shadow: 2px 6px 10px hsla(180, 29%, 50%, 0.2);
+  box-shadow: 2px 12px 14px hsla(180, 29%, 50%, 0.2);
   z-index: 1;
 }
 
@@ -27,6 +27,7 @@ span button:hover {
 }
 
 .clear-button {
+  font-size: 15px;
   border: none;
   font-weight: bold;
   color: var(--primary-dark-cyan);
