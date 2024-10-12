@@ -1,0 +1,47 @@
+.job-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  box-shadow: 2px 10px 14px hsla(180, 29%, 50%, 0.2);
+  margin-top: 20px;
+  padding: 30px 30px;
+}
+
+.info-container {
+  margin-left: 25px;
+}
+
+.company-header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.company-header p:first-child {
+  color: var(--primary-dark-cyan);
+}
+
+.position-and-time-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.job-tags {
+  margin-left: auto;
+}
+
+.job-tags button { 
+  color: var(--primary-dark-cyan);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.job-tags button:hover {
+  cursor: pointer;
+  background-color: var(--primary-dark-cyan);
+  color: var(--filter-tablets-cyan);
+  padding: 6px 6px;
+  border-radius: 3px;
+}

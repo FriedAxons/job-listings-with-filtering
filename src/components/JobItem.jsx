@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "../styles/JobItem.css";
 
 function JobItem({ job, addFilter }) {
   return (

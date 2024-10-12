@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../FilterBar.css";
+import "../styles/FilterBar.css";
 
 function FilterBar({ filters, removeFilter, clearFilters }) {
   return (

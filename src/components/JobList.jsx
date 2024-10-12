@@ -1,4 +1,5 @@
 import JobItem from "./JobItem";
+import "../styles/JobItem.css";
 
 /* This component receives the list of jobs (filtered based on active filters) from App.jsx and displays them 
 
