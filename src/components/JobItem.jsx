@@ -8,13 +8,15 @@ function JobItem({ job, addFilter }) {
       <div className="info-container">
         <div className="company-header">
           <p>{job.company}</p>
-          {job.new && <p>NEW</p>}
-          {job.featured && <p>FEATURED</p>}
+          {job.new && <p className="new">NEW!</p>}
+          {job.featured && <p className="featured">FEATURED</p>}
         </div>
         <h3>{job.position}</h3>
         <div className="position-and-time-container">
           <p>{job.postedAt}</p>
+          <p className="dot">&#x2022;</p>
           <p>{job.contract}</p>
+          <p className="dot">&#x2022;</p>
           <p>{job.location}</p>
         </div>
       </div>

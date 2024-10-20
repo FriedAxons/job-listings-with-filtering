@@ -8,6 +8,14 @@
   padding: 30px 30px;
 }
 
+h3 {
+  color: var(--primary-dark-cyan);
+}
+
+h3:hover {
+  cursor: pointer;
+}
+
 .info-container {
   margin-left: 25px;
 }
@@ -17,6 +25,10 @@
   margin-bottom: 10px;
 }
 
+.new, .featured {
+  margin-left: 15px;
+}
+
 .company-header p:first-child {
   color: var(--primary-dark-cyan);
 }
@@ -24,13 +36,18 @@
 .position-and-time-container {
   display: flex;
   margin-top: 10px;
+  color: var(--dark-grayish-cyan);
+}
+
+.dot {
+  margin: 0 10px;
 }
 
 .job-tags {
   margin-left: auto;
 }
 
-.job-tags button { 
+.job-tags button {
   color: var(--primary-dark-cyan);
   border: none;
   font-size: 16px;
