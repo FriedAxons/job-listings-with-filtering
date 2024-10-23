@@ -51,6 +51,10 @@ h3:hover {
   background-color: var(--very-dark-cyan);
 }
 
+.closer {
+  margin-right: 100px;
+}
+
 .company-header p:first-child {
   color: var(--primary-dark-cyan); 
   width: 100%;
