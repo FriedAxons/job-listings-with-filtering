@@ -2,8 +2,11 @@ import PropTypes from "prop-types";
 import "../styles/JobItem.css";
 
 function JobItem({ job, addFilter }) {
+  // Determine the class name based on job status
+  const containerClass = job.new && job.featured ? "highlighted" : "";
+
   return (
-    <div className="job-item">
+    <div className={`job-item ${containerClass}`}>
       <img src={job.logo} alt={`${job.company} logo`} />
       <div className="info-container">
         <div className="company-header">
@@ -48,6 +51,11 @@ JobItem.propTypes = {
     level: PropTypes.string.isRequired,
     languages: PropTypes.arrayOf(PropTypes.string).isRequired,
     tools: PropTypes.arrayOf(PropTypes.string).isRequired,
+    logo: PropTypes.string.isRequired,
+    postedAt: PropTypes.string.isRequired,
+    contract: PropTypes.string.isRequired,
+    new: PropTypes.bool,
+    featured: PropTypes.bool,
   }).isRequired,
   addFilter: PropTypes.func.isRequired,
 };

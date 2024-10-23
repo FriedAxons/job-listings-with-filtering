@@ -6,6 +6,11 @@
   box-shadow: 2px 10px 14px hsla(180, 29%, 50%, 0.2);
   margin-top: 20px;
   padding: 30px 30px;
+  border-radius: 5px;
+}
+
+.job-item.highlighted {
+  border-left: 4px solid var(--primary-dark-cyan);
 }
 
 h3 {
@@ -25,18 +30,17 @@ h3:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: 600;
-} 
+}
 
 .new,
 .featured {
   padding: 5px 8px 2px;
   margin-left: 15px;
-  color: var(--filter-tablets-cyan); 
+  color: var(--filter-tablets-cyan);
   border-radius: 12px;
 }
-
 
 .new {
   background-color: var(--primary-dark-cyan);
@@ -48,13 +52,13 @@ h3:hover {
 }
 
 .company-header p:first-child {
-  color: var(--primary-dark-cyan);
-  margin-right: auto;
+  color: var(--primary-dark-cyan); 
+  width: 100%;
 }
 
 .position-and-time-container {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
   color: var(--dark-grayish-cyan);
 }
 
