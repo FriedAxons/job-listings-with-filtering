@@ -1,21 +1,45 @@
 @media (max-width: 375px) {
   .top-banner {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
 
   img {
-    width: 20%;
+    position: absolute;
+    top: -21px;
+    left: 25px;
+    width: 14%;
   }
 
   .job-item {
     display: block;
     min-width: 70vw;
-    padding: 0 15px 0 15px;
+    padding: 30px 15px 0 15px;
     height: 250px;
     width: 290px;
+    margin-top: 40px;
   }
 
   .job-item.highlighted {
     border-left: 5px solid var(--primary-dark-cyan);
+  }
+
+  .info-container {
+    margin-left: 5px;
+  }
+
+  .company-header {
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .featured {
+    margin-right: 40px;
+  }
+
+  .closer {
+    margin-right: 140px;
   }
 }

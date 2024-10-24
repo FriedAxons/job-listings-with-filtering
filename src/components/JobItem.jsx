@@ -13,8 +13,8 @@ function JobItem({ job, addFilter }) {
           <p>{job.company}</p>
           {/* Add 'closer' class if only new */}
           {job.new && !job.featured && <p className="new closer">NEW!</p>}
-          {job.featured && <p className="featured">FEATURED</p>}
           {job.new && job.featured && <p className="new">NEW!</p>}
+          {job.featured && <p className="featured">FEATURED</p>}
           {/* Keep existing for both flairs */}
         </div>
         <h3>{job.position}</h3>

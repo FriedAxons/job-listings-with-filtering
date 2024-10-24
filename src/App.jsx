@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import JobList from "./components/JobList";
 import FilterBar from "./components/FilterBar";
+import "./styles/App.css";
 
 function App() {
   // Step 1: Define state for jobs and filters
