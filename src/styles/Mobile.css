@@ -14,7 +14,7 @@
     display: block;
     min-width: 70vw;
     padding: 30px 15px 0 15px;
-    height: 250px;
+    height: 230px;
     width: 290px;
     margin-top: 40px;
   }
@@ -53,11 +53,11 @@
   }
 
   .job-tags {
-    margin-top: 20px;
+    padding-right: 30px;
   }
-  
+
   .job-tags button {
-    margin-left: 5px;
+    margin: 20px 20px 0px 5px;
     background-color: var(--filter-tablets-cyan);
     font-weight: 700;
   }
