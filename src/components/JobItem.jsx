@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import "../styles/JobItem.css";
+import { JobItemPropTypes } from "./propTypes";
 
 function JobItem({ job, addFilter }) {
   // Determine the class name based on job status
@@ -45,22 +45,6 @@ function JobItem({ job, addFilter }) {
   );
 }
 
-JobItem.propTypes = {
-  job: PropTypes.shape({
-    company: PropTypes.string.isRequired,
-    position: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-    role: PropTypes.string.isRequired,
-    level: PropTypes.string.isRequired,
-    languages: PropTypes.arrayOf(PropTypes.string).isRequired,
-    tools: PropTypes.arrayOf(PropTypes.string).isRequired,
-    logo: PropTypes.string.isRequired,
-    postedAt: PropTypes.string.isRequired,
-    contract: PropTypes.string.isRequired,
-    new: PropTypes.bool,
-    featured: PropTypes.bool,
-  }).isRequired,
-  addFilter: PropTypes.func.isRequired,
-};
+JobItem.propTypes = JobItemPropTypes;
 
 export default JobItem;

@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import "../styles/FilterBar.css";
+import { FilterBarPropTypes } from "./propTypes";
 
 function FilterBar({ filters, removeFilter, clearFilters }) {
   return (
@@ -21,10 +21,6 @@ function FilterBar({ filters, removeFilter, clearFilters }) {
   );
 }
 
-FilterBar.PropTypes = {
-  filters: PropTypes.arrayOf(PropTypes.string).isRequired,
-  removeFilter: PropTypes.func.isRequired,
-  clearFilters: PropTypes.func.isRequired,
-};
+FilterBar.propTypes = FilterBarPropTypes;
 
 export default FilterBar;

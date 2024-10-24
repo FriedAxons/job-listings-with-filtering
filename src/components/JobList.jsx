@@ -1,16 +1,13 @@
 import JobItem from "./JobItem";
 import "../styles/JobItem.css";
+import { JobListPropTypes } from "./propTypes";
 
-/* This component receives the list of jobs (filtered based on active filters) from App.jsx and displays them 
-
+/* 
+This component receives the list of jobs (filtered based on active filters) from App.jsx and displays them 
 This component loops through the filtered jobs (using .map) and passes each job to a JobItem component.
-
 If no filters are applied, all jobs are displayed.
-
 It passes the addFilter function down to the JobItem component so that clicking on job tags can add a filter.
-
 */
-
 function JobList({ jobs, filters, addFilter }) {
   // If no filters are active, all jobs are shown
   const filteredJobs = jobs.filter((job) => {
@@ -27,5 +24,7 @@ function JobList({ jobs, filters, addFilter }) {
     </div>
   );
 }
+
+JobList.propTypes = JobListPropTypes;
 
 export default JobList;
