@@ -5,16 +5,17 @@
 
   .filter-bar {
     min-width: 70vw;
-    padding: 5px 40px 15px 20px;
+    padding: 2px 40px 15px 20px;
     border-radius: 4px;
+    top: 120px;
   }
 
   .job-list.with-filterbar {
-    margin-top: 60px;
+    margin-top: 90px;
   }
 
   .selected-filters {
-    min-width: 95%;
+    min-width: 94%;
   }
 
   .selected-filters button {
@@ -23,6 +24,11 @@
 
   .filter-tag {
     font-weight: 600;
+  }
+
+  .clear-button {
+    background-color: var(--filter-tablets-cyan);
+    color: var(--dark-grayish-cyan);
   }
 
   img {
