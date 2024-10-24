@@ -3,6 +3,28 @@
     margin-bottom: 15px;
   }
 
+  .filter-bar {
+    min-width: 70vw;
+    padding: 5px 40px 15px 20px;
+    border-radius: 4px;
+  }
+
+  .job-list.with-filterbar {
+    margin-top: 60px;
+  }
+
+  .selected-filters {
+    min-width: 95%;
+  }
+
+  .selected-filters button {
+    margin-top: 15px;
+  }
+
+  .filter-tag {
+    font-weight: 600;
+  }
+
   img {
     position: absolute;
     top: -21px;
@@ -12,7 +34,6 @@
 
   .job-item {
     display: block;
-    min-width: 70vw;
     padding: 30px 15px 0 15px;
     height: 230px;
     width: 290px;

@@ -17,7 +17,7 @@ function JobList({ jobs, filters, addFilter }) {
   });
 
   return (
-    <div className="job-list">
+    <div className={`job-list ${filters.length > 0 ? "with-filterbar" : ""}`}>
       {filteredJobs.map((job) => (
         <JobItem key={job.id} job={job} addFilter={addFilter} />
       ))}
