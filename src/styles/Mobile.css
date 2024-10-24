@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+  .top-banner {
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .job-item {
+    display: block;
+    min-width: 70vw;
+    padding: 0 15px 0 15px;
+    height: 250px;
+    width: 290px;
+  }
+
+  .job-item.highlighted {
+    border-left: 5px solid var(--primary-dark-cyan);
+  }
+}
