@@ -51,12 +51,15 @@ To add a filter, the user needs to click on the tablets on the right side of the
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Version](public/screenshots/desktop-completion.png)
+![Desktop Active State](public/screenshots/desktop-active-completion.png)
+![Mobile Version](public/screenshots/mobile-completion-example.png)
+![Desktop Version](public/screenshots/mobile-active-completion-example.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub Live Page](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/job-listings-with-filtering-solution-miCvKxFiZy)
+- Live Site URL: [GitHub Live Page](https://friedaxons.github.io/job-listings-with-filtering/)
 
 ### Built with
 
