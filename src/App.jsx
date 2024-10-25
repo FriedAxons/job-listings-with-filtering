@@ -10,7 +10,7 @@ function App() {
 
   // Step 2: Fetch the job data when the component loads
   useEffect(() => {
-    fetch("/data.json") // Fetch job data from a local file
+    fetch("/job-listings-with-filtering/data.json") // Fetch job data from a local file
       .then((response) => response.json()) // Convert the response to JSON
       .then((data) => setJobs(data)) // Store the job data in the 'jobs' state
       .then((error) => console.error("Error fetching jobs:", error));
